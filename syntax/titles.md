@@ -1,66 +1,66 @@
-# Titles
+# Titres
 
-As we started writing a markdown document, we need to add a title and some sub-headers.
 
-Markdown supports two styles of headers, Setext and atx.
+Comme nous venons de commencer la rédaction d'un document markdown, nous avons besoin d'un titre et de quelques sous-titres.
 
-Setext-style headers are “underlined” using equal signs (for first-level headers) and dashes (for second-level headers). For example:
+Markdown support deux types de titres, le Setext et le atx.
 
-```
-This is an H1
-=============
-
-This is an H2
--------------
-```
-
-Any number of underlining =’s or -’s will work.
-
-Atx-style headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:
+Les titres Setext sont "soulignés", soit avec le signe égal (pour les titres h1), soit par les tirets (pour le signe h2). Prenons un exemple :
 
 ```
-# This is an H1
+Voici un h1
+===========
 
-## This is an H2
-
-###### This is an H6
+Voici un h2
+-----------
 ```
 
+Quelque soit le nombre de égal ou tirets utilisés, cela fonctionnera.
 
-Optionally, you may “close” atx-style headers. This is purely cosmetic — you can use this if you think it looks better. The closing hashes don’t even need to match the number of hashes used to open the header. (The number of opening hashes determines the header level.) :
+Les titres Atx utilisent entre un et six dièses au début de la ligne, qui correspondent au niveau du titre voulu. Prenons un exemple :
 
 ```
-# This is an H1 #
+# Voici un h1
 
-## This is an H2 ##
+## Voici un h2
 
-### This is an H3 ######
+###### Voici un h6
+```
+
+Nous pouvons aussi, si nous le souhaitons, "fermer" les titres Atx. C'est purement esthétique - nous pouvons l'utiliser si nous pensons que cela rendra mieux. Il n'est pas obligatoire de mettre autant de dièses à la fin qu'au début (le nombre de dièses déterminant le niveau du titre):
+
+```
+# Voici un h1 #
+
+## Voici un h2 ##
+
+### Voici un h3 ######
 ```
 
 
 ---
 
-Here's a quiz about markdown titles.
+Voici un quiz sur les titres en markdown.
 
-Select the valid headers:
+Selectionnez le bon titre :
 - [x] `# hello`
 - [ ] `#hello`
 
-> Headers need space between the hash characters and the text.
+> Le titre a besoin d'un espace entre le dièse et le texte.
 
-Select the valid headers:
+Selectionnez le bon titre :
 - [ ]  
 ```
-test
-########
+teste
+#####
 ```
 - [x]   
 ```
-test
-=======
+teste
+=====
 ```
 
-> Only '=' and '-' are accepted for underlining an header.
+> Seul les '=' et les "-" sont acceptés pour souligner les titres.
 
 ---
 
